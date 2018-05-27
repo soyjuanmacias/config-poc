@@ -1,6 +1,6 @@
 {
   "name": "config-poc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config config/webpack/webpack.dev.js",
@@ -16,7 +16,7 @@
     "cz": "git-cz",
     "precommit": "lint-staged"
   },
-  "description": "frontend project config utils",
+  "description": "Frontend project configuration, workflow and code quality utils.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isidrok/config-poc.git"
