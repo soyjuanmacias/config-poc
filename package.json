@@ -8,13 +8,14 @@
     "fix": "run-p fix:*",
     "lint": "run-p lint:*",
     "commit": "git-cz",
-    "version": "standard-version",
+    "release": "standard-version",
     "fix:css": "stylelint --fix src/**/*.{css,scss}",
     "fix:js": "eslint --fix src/**/*.{js,jsx}",
     "lint:css": "stylelint src/**/*.{css,scss}",
     "lint:js": "eslint src/**/*.{js,jsx}",
-    "postbuild": "bundlesize",
-    "pretest": "npm run fix"
+    "pretest": "npm run fix",
+    "prerelease": "npm run build",
+    "postbuild": "bundlesize"
   },
   "description": "Frontend project configuration, workflow and code quality utils.",
   "repository": {
