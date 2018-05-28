@@ -14,7 +14,7 @@ export class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get startjjkjlksked, edit <code>src/App.js</code> and save to reload.</p>
+          To get asdqweqw12 tunanteo edit <code>src/App.js</code> and save to reload.</p>
         <LFoo />
       </div>
     );
