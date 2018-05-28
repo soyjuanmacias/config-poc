@@ -1,0 +1,3 @@
+# http://marionebl.github.io/commitlint/#/reference-rules
+extends:
+- "@commitlint/config-conventional"

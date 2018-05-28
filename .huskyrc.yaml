@@ -1,0 +1,4 @@
+# https://github.com/typicode/husky/blob/dev/docs.md
+hooks:
+  pre-commit: lint-staged
+  commit-msg: commitlint -e $GIT_PARAMS
