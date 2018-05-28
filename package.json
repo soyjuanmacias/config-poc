@@ -1,6 +1,6 @@
 {
   "name": "config-poc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config config/webpack/webpack.dev.js",
@@ -8,7 +8,7 @@
     "fix": "run-p fix:*",
     "lint": "run-p lint:*",
     "commit": "git-cz",
-    "changelog": "standard-changelog -i CHANGELOG.md",
+    "version": "standard-version",
     "fix:css": "stylelint --fix src/**/*.{css,scss}",
     "fix:js": "eslint --fix src/**/*.{js,jsx}",
     "lint:css": "stylelint src/**/*.{css,scss}",
@@ -78,7 +78,7 @@
     "postcss-flexbugs-fixes": "^3.3.1",
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.1",
-    "standard-changelog": "^1.0.19",
+    "standard-version": "^4.4.0",
     "stylelint": "^9.2.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^0.8.1",
